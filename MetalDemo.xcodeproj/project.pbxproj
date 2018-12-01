@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B625D8D21B25EFC00335842 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B625D8C21B25EFC00335842 /* 3.jpg */; };
+		4B625D8F21B25F8500335842 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B625D8E21B25F8500335842 /* 2.jpg */; };
 		4BB87E4221B245E20053E77A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB87E4121B245E20053E77A /* AppDelegate.swift */; };
 		4BB87E4421B245E20053E77A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB87E4321B245E20053E77A /* ViewController.swift */; };
 		4BB87E4721B245E20053E77A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BB87E4521B245E20053E77A /* Main.storyboard */; };
 		4BB87E4921B245E40053E77A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BB87E4821B245E40053E77A /* Assets.xcassets */; };
 		4BB87E4C21B245E40053E77A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BB87E4A21B245E40053E77A /* LaunchScreen.storyboard */; };
+		4BB87E5421B250900053E77A /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BB87E5321B250900053E77A /* 1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B625D8C21B25EFC00335842 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		4B625D8E21B25F8500335842 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 		4BB87E3E21B245E20053E77A /* MetalDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BB87E4121B245E20053E77A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BB87E4321B245E20053E77A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		4BB87E4821B245E40053E77A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BB87E4B21B245E40053E77A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BB87E4D21B245E40053E77A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BB87E5321B250900053E77A /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +63,11 @@
 				4BB87E4121B245E20053E77A /* AppDelegate.swift */,
 				4BB87E4321B245E20053E77A /* ViewController.swift */,
 				4BB87E4521B245E20053E77A /* Main.storyboard */,
+				4BB87E5321B250900053E77A /* 1.jpg */,
+				4B625D8E21B25F8500335842 /* 2.jpg */,
 				4BB87E4821B245E40053E77A /* Assets.xcassets */,
 				4BB87E4A21B245E40053E77A /* LaunchScreen.storyboard */,
+				4B625D8C21B25EFC00335842 /* 3.jpg */,
 				4BB87E4D21B245E40053E77A /* Info.plist */,
 			);
 			path = MetalDemo;
@@ -122,7 +131,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B625D8F21B25F8500335842 /* 2.jpg in Resources */,
+				4B625D8D21B25EFC00335842 /* 3.jpg in Resources */,
 				4BB87E4C21B245E40053E77A /* LaunchScreen.storyboard in Resources */,
+				4BB87E5421B250900053E77A /* 1.jpg in Resources */,
 				4BB87E4921B245E40053E77A /* Assets.xcassets in Resources */,
 				4BB87E4721B245E20053E77A /* Main.storyboard in Resources */,
 			);
@@ -282,14 +294,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = EUJ76RR773;
 				INFOPLIST_FILE = MetalDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.MetalDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Danny_Wheeler_WildCard_28 March";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,14 +314,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = EUJ76RR773;
 				INFOPLIST_FILE = MetalDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.MetalDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Danny_Wheeler_WildCard_28 March";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

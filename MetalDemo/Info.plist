@@ -41,5 +41,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Allow pHoto</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Allow Photo</string>
 </dict>
 </plist>
